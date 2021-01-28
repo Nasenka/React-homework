@@ -1,0 +1,47 @@
+h2 {
+  margin-top: 0;
+}
+
+.commentForm {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  padding: 30px;
+  border: 1px solid #c3c2be;
+  border-radius: 20px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.fieldForm {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #c3c2be;
+  border-radius: 6px;
+}
+
+textarea {
+  min-height: 70px;
+}
+
+.btnSubmit {
+  height: 40px;
+  margin-left: auto;
+  padding: 0 24px;
+  border: 0;
+  border-radius: 6px;
+  background: #3f2aff;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #fff;
+  transition: background .15s ease-out;
+}
+
+.btnSubmit:hover {
+  background: #000;
+}
